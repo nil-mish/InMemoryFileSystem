@@ -1,0 +1,11 @@
+The design of the system is as follows:
+
+File --> FileContainer --> (Drive,Folder,ZipFile)
+|
+|
+v
+TextFile
+
+FileSystem implements FileOps interface which has all the 4 desired file operations.
+
+A test file is available at com.tellapart.FileSystem.Tests
